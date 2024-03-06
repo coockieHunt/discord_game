@@ -1,0 +1,138 @@
+body{
+    font-family: 'Arial', sans-serif;
+    background-color: #131313;
+    overflow: hidden;
+}
+
+button{
+    border: none;
+    margin: 0;
+    padding: 0;
+    width: auto;
+    overflow: visible;
+    background: transparent;
+    color: inherit;
+    font: inherit;
+    line-height: normal;
+    -webkit-font-smoothing: inherit;
+    -moz-osx-font-smoothing: inherit;
+
+    cursor: pointer;
+}
+
+a{color: #f7cde4;}
+
+.content{
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    align-content: center;
+
+    justify-content: space-around;
+    height: 80vh;
+}
+.assci{
+    color: #f7cde4;
+    font-size: 1.35vw;
+    position: relative;
+    left: 40%;
+    transform: translateX(-50%);
+}
+
+.assci .error{
+    color: red;
+}
+
+
+.catch{
+    width: 80%;
+    height: 200px;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.catch span{
+    width: 50%;
+    padding: 0 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.catch .hint{
+    border-right: 1px solid white;
+    height: 100%;
+    line-height: 1.3em;
+}
+
+
+.catch h1{
+    color: #f7cde4;
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+    font-size: 2em;
+}
+
+.hintAdd{
+    width: 10px;
+    height: 10px;
+    color: #f7cde4;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+
+form input{
+    background-color: transparent;
+    color: #f7cde4; 
+    border: none;
+    padding: 8px;
+    font-family: 'Monaco', monospace;
+    border-radius: 0; 
+    box-sizing: border-box;
+    margin: 20px auto;
+    caret-color: #f7cde4;
+    font-size: 1.2em;
+    outline: none; 
+    border-bottom: 2px solid #f7cde4; 
+
+    display: flex;
+    flex-direction: row;
+}
+
+
+.lock input{
+    background-color: #f7cde4;
+}
+
+
+
+
+form input::placeholder{
+    color: #777777;
+    font-style: italic;
+}
+
+form input::placeholder{
+    color:#f7cde4;
+}
+
+form button{
+    color: #f7cde4;
+    cursor: pointer;
+}
+
+form button:hover{color: #7c4764;}
+
+.i{
+    position: absolute;
+    bottom: 5%;
+    left: 5%;
+    color: #181718;
+}
+
